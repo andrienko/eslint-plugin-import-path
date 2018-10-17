@@ -1,25 +1,33 @@
 {
   "name": "eslint-plugin-import-path",
   "version": "0.0.1",
-  "description": "Eslint plugins to check import paths",
+  "description": "eslint plugin to check import paths via regex",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "andrienko",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha ./test/forbidden.js"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
-  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.7.0",
-    "mocha": "^2.4.5"
+    "mocha": "^5.2.0"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "scripts": {
+    "test": "mocha ./test/*.js"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrienko/eslint-plugin-import-path.git"
+  },
+  "author": "andrienko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrienko/eslint-plugin-import-path/issues"
+  },
+  "homepage": "https://github.com/andrienko/eslint-plugin-import-path#readme"
 }
