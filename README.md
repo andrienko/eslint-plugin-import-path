@@ -95,3 +95,7 @@ Will cause a warning here:
       },
     ]]
 
+### Export paths
+
+Oh, export paths are also checked. Something like `export { Whatever } from 'somewhere/index'` will
+also get checked.
