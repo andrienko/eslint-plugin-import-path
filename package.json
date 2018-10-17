@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-import-path",
+  "version": "0.0.1",
+  "description": "Eslint plugins to check import paths",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "andrienko",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha ./test/forbidden.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}

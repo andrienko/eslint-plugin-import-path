@@ -1,0 +1,17 @@
+{
+  "plugins": ["import-path"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "rules": {
+    "import-path/parent-depth": ["warn", 3],
+    "import-path/forbidden": ["error", [{
+      "match": "/index$",
+      "message": "'/index' import is redundant - use '/'"
+    }]]
+  }
+}
